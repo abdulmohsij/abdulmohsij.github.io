@@ -8,6 +8,7 @@ function setup() {
 function draw() {
   background(255);
   textSize(25);
+  textAlign(CENTER);
   if (displayText) {
     fill(random(0, 255),random(0, 255), random(0, 255));
     text("You are awesome!",250,250);
